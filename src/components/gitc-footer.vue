@@ -1,6 +1,8 @@
 <template>
   <div class="gitc-footer">
-    <span>gitc</span>
+    <el-link type="primary" href="https://github.com/kanocence/gitc" target="_blank">
+      gitc🔗
+    </el-link>
     <el-divider direction="vertical" />
     <span>made by kanocence with ❤️</span>
   </div>
