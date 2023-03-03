@@ -4,7 +4,7 @@
       gitc🔗
     </el-link>
     <el-divider direction="vertical" />
-    <span>made by kanocence with ❤️</span>
+    <span>Made with ❤️ by kanocence</span>
   </div>
 </template>
 
