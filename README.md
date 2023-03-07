@@ -20,8 +20,8 @@ header 参考格式: `<type>(<scope>): <subject>`
 
 ~~PWA（Progressive Web Apps，渐进式 Web 应用）运用现代的 Web API 以及传统的渐进式增强策略来创建跨平台 Web 应用程序……~~ 
 
-可以安装成离线使用，获得最佳体验。
+可以从地址栏安装成离线使用，获得最佳体验~
 
-![sc.png](/docs/sc.png)
+<img src="./docs/sc.png" alt="install sc" style="zoom:50%;" />
 
 [关于PWA](https://web.dev/learn/pwa/)
