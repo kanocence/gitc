@@ -16,7 +16,7 @@ export const form2tag = (data: FormData) => {
 
 export const typeOptions = [
   { label: '新功能(feat)', value: 'feat', ass: '✨' },
-  { label: '修复bug(bug)', value: 'fix', ass: '🐛' },
+  { label: '修复(fix)', value: 'fix', ass: '🐛' },
   { label: '文档(doc)', value: 'docs', ass: '📝' },
   { label: '格式(style)', value: 'style', ass: '🎨' },
   { label: '重构(refactor)', value: 'refactor', ass: '♻️' },

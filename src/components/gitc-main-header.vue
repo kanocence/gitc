@@ -11,8 +11,8 @@ const btns: { label: string; type: 'danger' | 'success'; key: string }[] = [
 const keys = useMagicKeys({
   passive: false,
   onEventFired(e) {
-    // prevent ctrl + r and ctrl + c
-    if (e.ctrlKey && e.type === 'keydown' && (e.key === 'r' || e.key === 'c'))
+    // prevent ctrl + r, ctrl + c, ctrl + s
+    if (e.ctrlKey && e.type === 'keydown' && (e.key === 'r' || e.key === 'c' || e.key === 's'))
       e.preventDefault()
   },
 })
