@@ -38,9 +38,11 @@ const copy = () => {
   ElMessage.success('复制成功')
 
   // save to history
-  his.value.push(formData.value)
-  if (his.value.length > 5)
-    his.value.shift()
+  if (his.value.every(h => JSON.stringify(h) !== JSON.stringify(formData.value))) {
+    his.value.push(formData.value)
+    if (his.value.length > 5)
+      his.value.shift()
+  }
 }
 
 const onClick = (key: string) => {
