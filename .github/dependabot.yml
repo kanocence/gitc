@@ -1,0 +1,7 @@
+version: 2
+updates:
+  - package-ecosystem: npm # 你项目的包管理器，可选 npm, yarn, pip, maven 等
+    directory: "/"         # package.json 所在目录
+    schedule:
+      interval: weekly     # 检查更新的频率，可选 daily, weekly, monthly
+    open-pull-requests-limit: 5
