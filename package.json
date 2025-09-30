@@ -17,7 +17,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^0.35.3",
     "@vitejs/plugin-vue": "^4.0.0",
-    "eslint": "^8.35.0",
+    "eslint": "^9.36.0",
     "typescript": "^5.9.2",
     "unplugin-auto-import": "^0.14.4",
     "unplugin-vue-components": "^0.24.0",
