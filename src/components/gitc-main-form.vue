@@ -31,12 +31,14 @@ watch(
             :value="o.value"
           />
         </el-select>
+
         <el-input
           v-model="scope.input"
           placeholder="范围"
         />
       </div>
     </el-form-item>
+
     <el-form-item label="描述">
       <div class="gitc-main-form-item">
         <el-select v-model="subject.select">
@@ -47,6 +49,7 @@ watch(
             :value="o.value"
           />
         </el-select>
+
         <el-input
           v-model="subject.input"
           placeholder="描述(必填)"
@@ -55,6 +58,7 @@ watch(
         />
       </div>
     </el-form-item>
+
     <el-form-item label="详细描述">
       <el-input
         v-model="body"
@@ -63,6 +67,7 @@ watch(
         placeholder="详细描述"
       />
     </el-form-item>
+
     <el-form-item label="预览">
       <el-input
         v-model="preview"
@@ -80,17 +85,8 @@ watch(
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 12px;
     width: 100%;
-
-    .el-select {
-      min-width: 160px;
-      margin-right: 10px;
-    }
-  }
-
-  :deep(.el-textarea__inner) {
-    transition: height 0.1s ease-in-out;
-    overflow: hidden;
   }
 }
 </style>
